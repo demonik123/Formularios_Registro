@@ -12,7 +12,7 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Resgistro Usuario</h1>
+        <h1>Registro de Usuarios</h1>
         <form action="servletUsuario" method="POST">
             <table border="0">
                 <tbody>

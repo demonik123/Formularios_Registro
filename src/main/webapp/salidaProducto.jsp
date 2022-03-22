@@ -13,12 +13,12 @@
     </head>
     <body>
         <jsp:useBean id="prod" scope="request" class="com.emergentes.Producto" />
-        <h1>Gracias por Registrase</h1>
+        <h1>Gracias por Registrarse</h1>
         <p>Los datos recibidos son:</p>
-        <p>Producto:<jsp:getProperty name="prod" property="producto" /> </p>
-        <p>Su categoria es:<jsp:getProperty name="prod" property="categoria" /></p>
+        <p>Producto: <jsp:getProperty name="prod" property="producto" /> </p>
+        <p>Su categoria es: <jsp:getProperty name="prod" property="categoria" /></p>
         <p>Existencia: <jsp:getProperty name="prod" property="existencia" /> </p>
-        <p>Su precio es:<jsp:getProperty name="prod" property="precio" /> </p>
+        <p>Su precio es: <jsp:getProperty name="prod" property="precio" /> </p>
         
         <a href="index.jsp">Volver al Inicio</a>
     </body>

@@ -13,7 +13,7 @@
     </head>
     <body>
         <jsp:useBean id="libro" scope="request" class="com.emergentes.Libro" />
-        <h1>Gracias por Registrase</h1>
+        <h1>Gracias por Registrarse</h1>
         <p>Los datos recibidos son:</p>
         <p>Titulo: <jsp:getProperty name="libro" property="titulo" /> </p>
         <p>Su autor es: <jsp:getProperty name="libro" property="autor" /></p>

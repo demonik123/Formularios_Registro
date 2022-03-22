@@ -12,10 +12,14 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
-        <a href="inscripcionCurso.jsp">Inscripción de Curso</a> <br>
-        <a href="registroUsuario.jsp">Registro de Usuario</a> <br><!-- comment -->       
-        <a href="registroProducto.jsp">Registro de Producto</a> <br>
-        <a href="registroLibro.jsp">Registro de Libro</a>
+        <h1>Formularios de Registro</h1>
+
+        <ul style="margin-left: 50px">
+            <li><a href="inscripcionCurso.jsp">Inscripción de Curso</a></li>
+            <li><a href="registroUsuario.jsp">Registro de Usuario</a></li>
+            <li><a href="registroProducto.jsp">Registro de Producto</a></li>
+            <li><a href="registroLibro.jsp">Registro de Libro</a></li>
+        </ul>
+       
     </body>
 </html>

@@ -16,12 +16,12 @@
     </head>
     <body>
         <jsp:useBean id="usu" scope="request" class="com.emergentes.Usuario" />
-        <h1>Gracias por Registrase</h1>
+        <h1>Gracias por Registrarse</h1>
         <p>Los datos recibidos son:</p>
-        <p>Su nombre es:<jsp:getProperty name="usu" property="nombre" /> </p>
-        <p>Sus apellidos son:<%= us.getApellido()%></p>
+        <p>Su nombre es: <jsp:getProperty name="usu" property="nombre" /> </p>
+        <p>Sus apellidos son: <%= us.getApellido()%></p>    
         <p>Su correo es: <jsp:getProperty name="usu" property="correo" /> </p>
-        <p>Su contraseña es:<jsp:getProperty name="usu" property="contrasena" /> </p>
+        <p>Su contraseña es: <jsp:getProperty name="usu" property="contrasena" /> </p>
         
         <a href="index.jsp">Volver al Inicio</a>
     </body>

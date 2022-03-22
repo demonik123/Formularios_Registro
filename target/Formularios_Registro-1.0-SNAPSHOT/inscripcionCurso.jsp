@@ -17,17 +17,17 @@
             <table border="0">
                 <tbody>
                     <tr>
-                        <td>Nombres</td>
+                        <td align="right">Nombres:</td>
                         <td><input type="text" name="nombre" value="" /></td>
                     </tr>
                     <tr>
-                        <td>Apellidos</td>
-                        <td><input type="text" name="apellido" value="" /></td>
+                        <td>Apellidos:</td>
+                        <td align="right"><input type="text" name="apellido" value="" /></td>
                     </tr>
                     <tr>
-                        <td>Curso</td>
+                        <td align="right">Curso:</td>
                         <td>
-                            <select name="curso" size="3">
+                            <select name="curso" size="2">
                                 <option>1ro</option>
                                 <option>2do</option>
                                 <option>3ro</option>
@@ -42,7 +42,8 @@
                         </td>
                     </tr>
                     <tr>
-                        <td><input type="submit" value="Enviar" name="enviar" /></td>
+                        <td></td>
+                        <td align="right"><input type="submit" value="Enviar" name="enviar" /></td>
                     </tr>
                 </tbody>
             </table>

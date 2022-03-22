@@ -12,7 +12,7 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Resgistro de Libros</h1>
+        <h1>Registro de Libros</h1>
         <form action="servletLibro" method="POST">
             <table border="0">
                 <tbody>
